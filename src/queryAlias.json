@@ -1,0 +1,14 @@
+{"query":{
+  "multi_match": {
+    "query": "president",
+      "fields": ["alias"]
+  }
+},
+  "highlight": {
+    "pre_tags":["<span style='color:red;'>"],
+    "post_tags":["</span>"],
+    "fields":{
+      "*":{}
+    }
+  }
+}

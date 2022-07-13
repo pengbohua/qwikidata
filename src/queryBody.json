@@ -1,0 +1,14 @@
+{"query":{
+  "multi_match": {
+    "query": "head coach",
+      "fields": ["label", "description"]
+  }
+},
+  "highlight": {
+    "pre_tags":["<span style='color:red;'>"],
+    "post_tags":["</span>"],
+    "fields":{
+      "*":{}
+    }
+  }
+}

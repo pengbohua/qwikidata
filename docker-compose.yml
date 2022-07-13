@@ -1,0 +1,30 @@
+version: "3.8"
+volumes:
+  data:
+  config:
+networks:
+  es:
+services:
+  elasticsearch:
+    image: elasticsearch:7.14.0
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    networks:
+      - "es"
+    environment:
+      - "discovery.type=single-node"
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    volumes:
+      - data:/Users/marvin/codes/BMKG/es-kibana/elasticsearch/data
+      - config:/Users/marvin/codes/BMKG/es-kibana/elasticsearch/config
+      - ./ik-7.14.0:/Users/marvin/codes/BMKG/es-kibana/elasticsearch/ik-7.14.0
+
+  kibana:
+    image: kibana:7.14.0
+    ports:
+      - "5601:5601"
+    networks:
+      - "es"
+    volumes:
+      - ./kibana.yml:/Users/marvin/codes/BMKG/es-kibana/kibana/kibana.yml

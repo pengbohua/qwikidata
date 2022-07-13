@@ -1,0 +1,369 @@
+{'description': ['sports club for which this person is on-field manager or '
+                 'coach',
+                 'on-field manager or head coach of a sports club (not to be '
+                 'confused with a general manager P505, which is not a '
+                 'coaching position) or person',
+                 'general manager of a sports team. If they are also an '
+                 'on-field manager use P286 instead',
+                 'person who manages any kind of group',
+                 'parent club of this team',
+                 'manager ID on the Soccerbase.com website',
+                 'identifier in the geographical database of the Touring Club '
+                 'Italiano, or Touring Club of Italy',
+                 'ForaDeJogo.net identifier for an association football '
+                 '(soccer) manager',
+                 'substitute of the director/manager of an organization',
+                 'identifier on the website Chess Club (www.chessclub.com)',
+                 'club or team that played the season',
+                 'identifier for a manager or coach, in the transfermarkt.com '
+                 'database',
+                 'identifier for a manager (coach) at website of J.League, '
+                 "Japan's professional association football (soccer) league",
+                 'identifier for an ice hockey team in the database of '
+                 'Eurohockey.com',
+                 'property for various sportclubs on sportsport.ba website',
+                 'identifier for football manager on England Football Online '
+                 'site',
+                 'identifier in the Democracy Club database of elections',
+                 'ID for a sports club on sportsport.ba website',
+                 'identifier on crates.io, the Rust package manager (used by '
+                 'cargo)',
+                 'identifier in the Democracy Club database of political '
+                 'candidates',
+                 'identifier for a handball player or manager on the Scoresway '
+                 'website',
+                 'identifier for a hut on the German Alpine Club website',
+                 'identifier for a hut on the Austrian Alpine Club website',
+                 'identifier for a coach or manager in the Turkish Football '
+                 "Federation's database",
+                 'identifier for a rugby player on the European Professional '
+                 'Club Rugby website',
+                 'identifier for a ship, ship owner or ship manager per the  '
+                 'International Maritime Organization',
+                 'identifier for a association football (soccer) player, '
+                 'manager or referee at the Scoresway website',
+                 'identifier for a hut, a summit, etc. on the Swiss Alpine '
+                 'Club website',
+                 'identifier in the composite gazetteer for Antarctica run New '
+                 'Zealand',
+                 'identifier',
+                 'ID of a race horse in the database of the Jockey Club of the '
+                 'Czech Republic',
+                 'identifier for a person, a club or a competition on the So '
+                 'Foot website',
+                 'official supplier of sports goods to a given club or a '
+                 'national sports team',
+                 'the members of this organization (club or society) are '
+                 'students of the target college or university',
+                 'identifier for players, manager and referees in the '
+                 "datacenter of the German Football Association (''Deutscher "
+                 "Fußball-Bund'', DFB)",
+                 'identifier',
+                 'property that shows the competition of which the item is a '
+                 'season. Use P5138 for "season of club or team".',
+                 'organization or club to which the subject belongs. Do not '
+                 'use for membership in ethnic or social groups, nor for '
+                 'holding a position such as a member of parliament (use P39 '
+                 'for that).',
+                 'edition of sports competitions at which the club or team '
+                 'that played a season competed at. Use this to link items for '
+                 'team seasons to items for specific seasons of '
+                 'competitions.Sample: 2012–13 FC Barcelona season → 2012–13 '
+                 'UEFA Champions League'],
+ 'full_message': ['6087,coach of sports team,sports club for which this person '
+                  'is on-field manager or coach\r',
+                  '286,head coach,"on-field manager or head coach of a sports '
+                  'club (not to be confused with a general manager P505, which '
+                  'is not a coaching position) or person"\r',
+                  '505,general manager,general manager of a sports team. If '
+                  'they are also an on-field manager use P286 instead\r',
+                  '1037,director/manager,person who manages any kind of '
+                  'group\r',
+                  '831,parent club,parent club of this team\r',
+                  '2195,Soccerbase manager ID,manager ID on the Soccerbase.com '
+                  'website\r',
+                  '5601,TCI destination ID,"identifier in the geographical '
+                  'database of the Touring Club Italiano, or Touring Club of '
+                  'Italy"\r',
+                  '3661,ForaDeJogo manager ID,ForaDeJogo.net identifier for an '
+                  'association football (soccer) manager\r',
+                  '7169,substitute director/manager,substitute of the '
+                  'director/manager of an organization\r',
+                  '1666,Chess Club ID,identifier on the website Chess Club '
+                  '(www.chessclub.com)\r',
+                  '5138,season of club or team,club or team that played the '
+                  'season\r',
+                  '2447,Transfermarkt manager ID,"identifier for a manager or '
+                  'coach, in the transfermarkt.com database"\r',
+                  '4048,J.League manager ID,"identifier for a manager (coach) '
+                  "at website of J.League, Japan's professional association "
+                  'football (soccer) league"\r',
+                  '5183,Eurohockey.com club ID,identifier for an ice hockey '
+                  'team in the database of Eurohockey.com\r',
+                  '6729,SportSport.ba club ID,property for various sportclubs '
+                  'on sportsport.ba website\r',
+                  '6330,England Football Online manager profile,identifier for '
+                  'football manager on England Football Online site\r',
+                  '6649,Democracy Club election ID,identifier in the Democracy '
+                  'Club database of elections\r',
+                  '6768,SportSport.ba news ID,ID for a sports club on '
+                  'sportsport.ba website\r',
+                  '4763,crates.io ID,"identifier on crates.io, the Rust '
+                  'package manager (used by cargo)"\r',
+                  '6465,Democracy Club candidate ID,identifier in the '
+                  'Democracy Club database of political candidates\r',
+                  '4451,Scoresway handball person ID,identifier for a handball '
+                  'player or manager on the Scoresway website\r',
+                  '5757,DAV hut ID,identifier for a hut on the German Alpine '
+                  'Club website\r',
+                  '5759,ÖAV hut ID,identifier for a hut on the Austrian Alpine '
+                  'Club website\r',
+                  '2449,Turkish Football Federation coach  ID,identifier for a '
+                  "coach or manager in the Turkish Football Federation's "
+                  'database\r',
+                  '3666,EPCR player ID,identifier for a rugby player on the '
+                  'European Professional Club Rugby website\r',
+                  '458,IMO ship number,"identifier for a ship, ship owner or '
+                  'ship manager per the  International Maritime '
+                  'Organization"\r',
+                  '3043,Scoresway soccer person ID,"identifier for a '
+                  'association football (soccer) player, manager or referee at '
+                  'the Scoresway website"\r',
+                  '5761,SAC ID,"identifier for a hut, a summit, etc. on the '
+                  'Swiss Alpine Club website"\r',
+                  '6484,Antarctica NZ Digital Asset Manager,identifier in the '
+                  'composite gazetteer for Antarctica run New Zealand\r',
+                  '1241,Swiss Football Association Club Number,identifier\r',
+                  '4472,Czech Jockey Club horse ID,ID of a race horse in the '
+                  'database of the Jockey Club of the Czech Republic\r',
+                  '5740,So Foot ID,"identifier for a person, a club or a '
+                  'competition on the So Foot website"\r',
+                  '5995,kit supplier,official supplier of sports goods to a '
+                  'given club or a national sports team\r',
+                  '6840,student organization of,the members of this '
+                  'organization (club or society) are students of the target '
+                  'college or university\r',
+                  '4023,DFB datacenter player ID,"identifier for players, '
+                  'manager and referees in the datacenter of the German '
+                  "Football Association (''Deutscher Fußball-Bund'', "
+                  'DFB)"\r',
+                  "1293,Royal Aero Club Aviator's Certificate ID,identifier\r",
+                  '3450,sports season of league or competition,"property that '
+                  'shows the competition of which the item is a season. Use '
+                  'P5138 for ""season of club or team""."\r',
+                  '463,member of,"organization or club to which the subject '
+                  'belongs. Do not use for membership in ethnic or social '
+                  'groups, nor for holding a position such as a member of '
+                  'parliament (use P39 for that)."\r',
+                  '5249,sports competition competed at,edition of sports '
+                  'competitions at which the club or team that played a season '
+                  'competed at. Use this to link items for team seasons to '
+                  'items for specific seasons of competitions.Sample: 2012–13 '
+                  'FC Barcelona season → 2012–13 UEFA Champions League\r'],
+ 'hl_desc': [["sports <span style='color:red;'>club</span> for which this "
+              "person is on-field <span style='color:red;'>manager</span> or "
+              'coach'],
+             ["on-field <span style='color:red;'>manager</span> or head coach "
+              "of a sports <span style='color:red;'>club</span> (not to be "
+              "confused with a general <span style='color:red;'>manager</span> "
+              'P505, which'],
+             ["general <span style='color:red;'>manager</span> of a sports "
+              'team. If they are also an on-field <span '
+              "style='color:red;'>manager</span> use P286 instead"],
+             'person who manages any kind of group',
+             ["parent <span style='color:red;'>club</span> of this team"],
+             ["<span style='color:red;'>manager</span> ID on the "
+              'Soccerbase.com website'],
+             ['identifier in the geographical database of the Touring <span '
+              "style='color:red;'>Club</span> Italiano, or Touring <span "
+              "style='color:red;'>Club</span> of Italy"],
+             ['ForaDeJogo.net identifier for an association football (soccer) '
+              "<span style='color:red;'>manager</span>"],
+             ['substitute of the director/<span '
+              "style='color:red;'>manager</span> of an organization"],
+             ['identifier on the website Chess <span '
+              "style='color:red;'>Club</span> (www.chessclub.com)"],
+             ["<span style='color:red;'>club</span> or team that played the "
+              'season'],
+             ["identifier for a <span style='color:red;'>manager</span> or "
+              'coach, in the transfermarkt.com database'],
+             ["identifier for a <span style='color:red;'>manager</span> "
+              "(coach) at website of J.League, Japan's professional "
+              'association football (soccer'],
+             'identifier for an ice hockey team in the database of '
+             'Eurohockey.com',
+             'property for various sportclubs on sportsport.ba website',
+             ["identifier for football <span style='color:red;'>manager</span> "
+              'on England Football Online site'],
+             ['identifier in the Democracy <span '
+              "style='color:red;'>Club</span> database of elections"],
+             ["ID for a sports <span style='color:red;'>club</span> on "
+              'sportsport.ba website'],
+             ['identifier on crates.io, the Rust package <span '
+              "style='color:red;'>manager</span> (used by cargo)"],
+             ['identifier in the Democracy <span '
+              "style='color:red;'>Club</span> database of political "
+              'candidates'],
+             ['identifier for a handball player or <span '
+              "style='color:red;'>manager</span> on the Scoresway website"],
+             ['identifier for a hut on the German Alpine <span '
+              "style='color:red;'>Club</span> website"],
+             ['identifier for a hut on the Austrian Alpine <span '
+              "style='color:red;'>Club</span> website"],
+             ['identifier for a coach or <span '
+              "style='color:red;'>manager</span> in the Turkish Football "
+              "Federation's database"],
+             ['identifier for a rugby player on the European Professional '
+              "<span style='color:red;'>Club</span> Rugby website"],
+             ['identifier for a ship, ship owner or ship <span '
+              "style='color:red;'>manager</span> per the  International "
+              'Maritime Organization'],
+             ['identifier for a association football (soccer) player, <span '
+              "style='color:red;'>manager</span> or referee at the Scoresway "
+              'website'],
+             ['identifier for a hut, a summit, etc. on the Swiss Alpine <span '
+              "style='color:red;'>Club</span> website"],
+             'identifier in the composite gazetteer for Antarctica run New '
+             'Zealand',
+             'identifier',
+             ['ID of a race horse in the database of the Jockey <span '
+              "style='color:red;'>Club</span> of the Czech Republic"],
+             ["identifier for a person, a <span style='color:red;'>club</span> "
+              'or a competition on the So Foot website'],
+             ['official supplier of sports goods to a given <span '
+              "style='color:red;'>club</span> or a national sports team"],
+             ['the members of this organization (<span '
+              "style='color:red;'>club</span> or society) are students of the "
+              'target college or university'],
+             ["identifier for players, <span style='color:red;'>manager</span> "
+              'and referees in the datacenter of the German Football '
+              "Association (''"],
+             'identifier',
+             ['Use P5138 for "season of <span style=\'color:red;\'>club</span> '
+              'or team".'],
+             ["organization or <span style='color:red;'>club</span> to which "
+              'the subject belongs.'],
+             ['edition of sports competitions at which the <span '
+              "style='color:red;'>club</span> or team that played a season "
+              'competed at.']],
+ 'hl_label': ['coach of sports team',
+              'head coach',
+              ["general <span style='color:red;'>manager</span>"],
+              ["director/<span style='color:red;'>manager</span>"],
+              ["parent <span style='color:red;'>club</span>"],
+              ["Soccerbase <span style='color:red;'>manager</span> ID"],
+              'TCI destination ID',
+              ["ForaDeJogo <span style='color:red;'>manager</span> ID"],
+              ["substitute director/<span style='color:red;'>manager</span>"],
+              ["Chess <span style='color:red;'>Club</span> ID"],
+              ["season of <span style='color:red;'>club</span> or team"],
+              ["Transfermarkt <span style='color:red;'>manager</span> ID"],
+              ["J.League <span style='color:red;'>manager</span> ID"],
+              ["Eurohockey.com <span style='color:red;'>club</span> ID"],
+              ["SportSport.ba <span style='color:red;'>club</span> ID"],
+              ['England Football Online <span '
+               "style='color:red;'>manager</span> profile"],
+              ["Democracy <span style='color:red;'>Club</span> election ID"],
+              'SportSport.ba news ID',
+              'crates.io ID',
+              ["Democracy <span style='color:red;'>Club</span> candidate ID"],
+              'Scoresway handball person ID',
+              'DAV hut ID',
+              'ÖAV hut ID',
+              'Turkish Football Federation coach  ID',
+              'EPCR player ID',
+              'IMO ship number',
+              'Scoresway soccer person ID',
+              'SAC ID',
+              ['Antarctica NZ Digital Asset <span '
+               "style='color:red;'>Manager</span>"],
+              ['Swiss Football Association <span '
+               "style='color:red;'>Club</span> Number"],
+              ["Czech Jockey <span style='color:red;'>Club</span> horse ID"],
+              'So Foot ID',
+              'kit supplier',
+              'student organization of',
+              'DFB datacenter player ID',
+              ["Royal Aero <span style='color:red;'>Club</span> Aviator's "
+               'Certificate ID'],
+              'sports season of league or competition',
+              'member of',
+              'sports competition competed at'],
+ 'id_set': [6087,
+            286,
+            505,
+            1037,
+            831,
+            2195,
+            5601,
+            3661,
+            7169,
+            1666,
+            5138,
+            2447,
+            4048,
+            5183,
+            6729,
+            6330,
+            6649,
+            6768,
+            4763,
+            6465,
+            4451,
+            5757,
+            5759,
+            2449,
+            3666,
+            458,
+            3043,
+            5761,
+            6484,
+            1241,
+            4472,
+            5740,
+            5995,
+            6840,
+            4023,
+            1293,
+            3450,
+            463,
+            5249],
+ 'label': ['coach of sports team',
+           'head coach',
+           'general manager',
+           'director/manager',
+           'parent club',
+           'Soccerbase manager ID',
+           'TCI destination ID',
+           'ForaDeJogo manager ID',
+           'substitute director/manager',
+           'Chess Club ID',
+           'season of club or team',
+           'Transfermarkt manager ID',
+           'J.League manager ID',
+           'Eurohockey.com club ID',
+           'SportSport.ba club ID',
+           'England Football Online manager profile',
+           'Democracy Club election ID',
+           'SportSport.ba news ID',
+           'crates.io ID',
+           'Democracy Club candidate ID',
+           'Scoresway handball person ID',
+           'DAV hut ID',
+           'ÖAV hut ID',
+           'Turkish Football Federation coach  ID',
+           'EPCR player ID',
+           'IMO ship number',
+           'Scoresway soccer person ID',
+           'SAC ID',
+           'Antarctica NZ Digital Asset Manager',
+           'Swiss Football Association Club Number',
+           'Czech Jockey Club horse ID',
+           'So Foot ID',
+           'kit supplier',
+           'student organization of',
+           'DFB datacenter player ID',
+           "Royal Aero Club Aviator's Certificate ID",
+           'sports season of league or competition',
+           'member of',
+           'sports competition competed at']}
