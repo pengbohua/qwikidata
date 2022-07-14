@@ -26,7 +26,7 @@ def unauthorized():
 @app.route("/search/<keywords>", methods=["GET"])
 # @auth.login_required
 def search(keywords):
-    es_url = "http://127.0.0.1:9200"    # change
+    es_url = "http://103.242.175.117:9200"    # change IP if necessary
     es = Elasticsearch(es_url)
     num_limits = 20
 

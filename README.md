@@ -10,14 +10,14 @@ docker-compose up -d
 ```
 
 ## 安装启动logstash服务
-成功启动ES后，去logstash官网下载与ES相同版本的logstash。运行以下命令导入多个csv,注意每个线程监控一个csv使用独立路径，合并导致数据混乱
+成功启动ES后，去logstash官网下载与ES相同版本的logstash 7.14.0放到目录下。运行以下命令导入多个csv,注意每个线程监控一个csv使用独立路径，合并导致数据混乱
 创建索引的时间开销随csv大小增加。
 ```shell
 cp ./logstash_confs/* ./logstash-7.14.0
 cd logstash-7.14.0
 mkdir entity entity_alias property property_alias
-./bin/logstash -f entity.conf --path.data=./entity
-./bin/logstash -f entity_alias.conf --path.data=./entity_alias
+./bin/logstash -f item.conf --path.data=./entity
+./bin/logstash -f item_aliases.conf --path.data=./entity_alias
 ./bin/logstash -f property.conf --path.data=./property
 ./bin/logstash -f property_aliases.conf --path.data=./property_alias
 ```
@@ -26,5 +26,5 @@ mkdir entity entity_alias property property_alias
 ```shell
 cd src
 python esApp.py
-curl --keepalive-time 5 -i http://127.0.0.1:5000/search/head-coach # 空格用连字符代替
+curl --keepalive-time 5 -i http://127.0.0.1:5000/search/head-coach # YOUR QUERY HERE 空格用连字符代替
 ```
