@@ -15,13 +15,16 @@ docker-compose up -d
 ```shell
 cp ./logstash_confs/* ./logstash-7.14.0
 cd logstash-7.14.0
-mkdir entity entity_alias property property_alias
+mkdir entity entityalias property propertyalias
 ./bin/logstash -f item.conf --path.data=./entity
-./bin/logstash -f item_aliases.conf --path.data=./entity_alias
+./bin/logstash -f item_aliases.conf --path.data=./entityalias
 ./bin/logstash -f property.conf --path.data=./property
-./bin/logstash -f property_aliases.conf --path.data=./property_alias
+./bin/logstash -f property_aliases.conf --path.data=./propertyalias
 ```
-
+ES不区分索引的大小写，不可以有特殊字符，注意删除索引要彻底删除相应的路径。通过如下指令查到索引，健康状态为yellow表示备份文件与原始文件在相同节点，可以采用分布式查询解决。
+```
+http://localhost:9200/_cat/indices?v
+```
 ## Web API接口
 ```shell
 cd src
