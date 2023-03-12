@@ -5,7 +5,7 @@ This project uses ElasticSearch (ES) 7.14.0 to create inverted indexes for fuzzy
 Install ES and visualization tool Kibana with docker-compose, where configuration is stored in docker-compose.yml.
 ```shell
 cd ./qwikidata
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Install and start logstash
