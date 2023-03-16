@@ -15,7 +15,7 @@ cp ./logstash_confs/* ./logstash-7.14.0
 cd logstash-7.14.0
 mkdir entity entityalias property propertyalias
 ./bin/logstash -f PathToConfig/item.conf --path.data=./entity
-./bin/logstash -f PathToConfig/item_aliases.conf --path.data=./entityalias
+./bin/logstash -f PathToConfig/itemaliases.conf --path.data=./entityalias
 ./bin/logstash -f PathToConfig/property.conf --path.data=./property
 ./bin/logstash -f PathToConfig/property_aliases.conf --path.data=./propertyalias
 ```
