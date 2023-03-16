@@ -82,4 +82,5 @@ def search(category, keywords):
 
 
 if __name__ == "__main__":
+    app.config['TEMPLATES_AUTO_RELOAD'] = True  # auto reload when the template is modified
     app.run(debug=True)
