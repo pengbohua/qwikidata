@@ -28,5 +28,5 @@ http://localhost:9200/_cat/indices?v
 cd src
 python esApp.py
 curl --keepalive-time 5 -i http://127.0.0.1:5000/search/property/head-coach # query here, and replace space with -
-curl --keepalive-time 5 -i http://127.0.0.1:5000/search/entity/Beijing
+curl --keepalive-time 5 -i http://127.0.0.1:5000/search/entity/america
 ```
